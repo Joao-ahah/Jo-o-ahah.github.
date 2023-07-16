@@ -1,0 +1,28 @@
+
+# Trabalhos-da-Faculdade
+ambiente para se postar os códigos da faculdade
+
+O código consiste em um cliente e um servidor. A ideia central é ensinar o funcionamento de uma conexão entre dois computadores, seu funcionamento e similar a um chat.  
+
+Foram usadas as bibliotecas: random , sockets, time e PysimpleGUI  
+
+A biblioteca PysimpleGUI foi utilizada para a interface gráfica do programa onde será usada para visualizar os números gerados e para ficar mais fácil a navegação pelo programa.  
+
+O random serve para gerar os números "aleatórios" entre 1 á 30 casas que foram pedidos na criação do código  
+
+A biblioteca sockets permite a comunicação entre dois processos (programas) diferentes na mesma máquina ou em máquinas diferentes. Isso quer dizer que usamos Sockets quando desejamos orquestrar a comunicação entre computadores diferentes ou mesmo entre dois programas.   
+
+Biblioteca time serve para iniciar o processo de contagem dos 10 segundos para gerar o novo número "aleatório" 
+
+ 
+
+Bugs conhecidos : 
+
+Não enviar o número antes de gerar algum valor anteriormente se não o programa irá travar. 
+
+As vezes o local host não identifica o ip do usuario sendo nessesario trocar as informações manualmente.
+
+
+Diretorio GitHub:
+https://github.com/FilipeGmartins/Trabalhos-da-Faculdade
+
